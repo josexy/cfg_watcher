@@ -113,8 +113,6 @@ where
 
                             let _ = tx.send(());
                         }
-                    } else if event.kind.is_remove() {
-                        log::error!("config file {} was removed", config_file_clone.display());
                     }
                 });
             }),
