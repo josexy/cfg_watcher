@@ -5,6 +5,9 @@ edition = "2024"
 description = "Configuration watcher wrapper with tokio async"
 categories = ["config"]
 keywords = ["config", "configuration", "notify", "async"]
+repository = "https://github.com/josexy/cfg_watcher"
+license = "MIT"
+readme = "README.md"
 
 [features]
 default = ["json", "yaml", "toml"]
